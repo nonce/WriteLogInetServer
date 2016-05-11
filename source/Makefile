@@ -11,7 +11,7 @@ OBJS = \
     WritelogInetServer.o
 
 GPP = \
-    g++ -std=c++11
+    g++ -std=c++0x
 
 WritelogInetServer: $(OBJS)
 	$(GPP) -O2 -o WritelogInetServer -static $(OBJS)
