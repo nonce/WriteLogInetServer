@@ -5,3 +5,6 @@ source/*.ncb
 source/*.suo
 source/*.user
 source/*.sln
+
+#IDE
+.idea
